@@ -7,3 +7,11 @@ class Object
     end
   end
 end
+
+def assert_equal(expected, actual)
+  if actual == expected
+    puts "Pass"
+  else
+    puts "Fail- Expected: #{expected}, but got: #{actual}"
+  end
+end
